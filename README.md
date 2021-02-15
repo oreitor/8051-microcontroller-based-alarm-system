@@ -28,12 +28,12 @@ There are many different ways to send an warning signal with serial comm. You ca
 * Crystal (Important for serial comm!)
 
 ### Determination of Crystal Frequency
-If do you want to using serial comm with 8051 microcontroller you have to determine Crystal frequency. Its depends serial comm Baud Rate value. Baud Rate value determines the serial communication speed of the circuit and if not determined correctly, warning signal will not be sent. Here [this](https://microcontrollerslab.com/serial-communication-8051-keil/) website explain everything about calculation Crystal frequancy and Baud Rate relationship. 
+If do you want to using serial comm with 8051 microcontroller you have to assign Crystal frequency. Its depends serial comm Baud Rate value. Baud Rate value determines the serial communication speed of the circuit and if not determined correctly, warning signal will not be sent. Here [this](https://microcontrollerslab.com/serial-communication-8051-keil/) website explain everything about calculation Crystal frequancy and Baud Rate relationship. 
 
-Commonly thing, people prefer the 9600 Baud Rate, and this gives the result equal to 11.0592MHz for the Crystal frequency. I generally prefer 24MHz for 8051 family because of its convenient the machine cycle calculation. Equation is below and it shows my Baud Rate value equal to 20833MHz.  
+Commonly thing, people prefer the 9600 Baud Rate, and this gives the result equal to 11.0592MHz for the Crystal frequency. I generally prefer 24MHz for 8051 family because of its convenient the machine cycle calculation. Equation is below and it shows my Baud Rate value equal to 20833.  
 
 <p align="center">
-  <img width="600" src="https://github.com/oreitor/8051-microcontroller-based-alarm-system/blob/main/crystal.PNG">
+  <img width="600" src="https://github.com/oreitor/8051-microcontroller-based-alarm-system/blob/main/crystal.png">
 </p>
 
 ### Flowchart of System
